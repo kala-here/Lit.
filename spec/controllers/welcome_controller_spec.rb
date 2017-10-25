@@ -1,10 +1,10 @@
 require 'rails_helper'
 
-RSpec.describe HomeController, type: :controller do
+RSpec.describe WelcomeController, type: :controller do
 
-  describe "GET #index" do
+  describe "GET #home" do
     it "returns http success" do
-      get :index
+      get :home
       expect(response).to have_http_status(:success)
     end
   end
